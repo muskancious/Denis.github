@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ProductsDSM</title>
+    <!-- google-fonts -->
+    <link
+        href="//fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Teko:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- //google-fonts -->
+    <!-- Font-Awesome-Icons-CSS -->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+<style>
+    .smalllistallm li{
+        list-style: none;
+    }
+    .smalllistallm li::before{
+        content: "\00BB";
+
+    }
+    .smalllistm{
+        /* border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red; */
+  border: 1px solid;
+  padding: 50px;
+  box-shadow: 5px 10px #f1e6e6;
+  margin: 20px;
+    }
+    .bigm{
+        display: flex;
+        flex-direction: row;
+    }
+    div.gallerym {
+  border: 1px solid #ccc;
+}
+
+div.gallerym:hover {
+  border: 1px solid rgb(248, 152, 152);
+}
+
+div.gallerym img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsivem {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .responsivem {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsivem {
+    width: 100%; }
+  }
+  .clearfixm:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.rainbow-text {
+            font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  width: 400px;
+  line-height: 0.9em;
+  
+  /* Create a conic gradient. */
+  /* Double percentages to avoid blur (#000 10%, #fff 10%, #fff 20%, ...). */
+  background: #BE1E23;
+  background-color: #BE1E23;
+  background: conic-gradient(
+    #BE1E23 16.666%, 
+    #E16541 16.666%, 
+    #E16541 33.333%, 
+    #F18F43 33.333%, 
+    #F18F43 50%, 
+    #0c0c06 50%, 
+    #161615 66.666%, 
+    #b44b05 66.666%, 
+    #f09d03 83.333%, 
+    #f81403 83.333%);
+  
+  /* Set thee background size and repeat properties. */
+  background-size: 57%;
+  background-repeat: repeat;
+  
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  /* Animate the text when loading the element. */
+  /* This animates it on page load and when hovering out. */
+  animation: rainbow-text-animation-rev 0.5s ease forwards;
+
+  cursor: pointer;
+}
+
+
+.rainbow-text:hover {
+  animation: rainbow-text-animation 0.5s ease forwards;
+}
+
+
+@keyframes rainbow-text-animation {
+  0% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+}
+
+
+@keyframes rainbow-text-animation-rev {
+  0% {
+    background-size: 300%;
+    background-position: -9em 1em;
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 57%;
+    background-position: 0 0;
+  }
+}
+/* .backimage{
+    background-image: url(assets/images/welding.png), url(assets/images/weld.png);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat, repeat;
+
+    
+
+
+} */
+
+</style>
+
+<body>
+    <!--header-->
+    <header id="site-header" class="fixed-top">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg stroke">
+                <a class="navbar-brand" href="#index.html">
+                    <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:35px;" />
+                </a> 
+                <h1>
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">Denis Sheet Metal (2000) Ltd</a>
+                </h1>
+                <!-- <h6 style="margin:4px">(613) 443-9449</h6> -->
+                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-lg-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>  -->
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="services.html">Services</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="capabilities.html">Capabilities</a>
+                        </li> -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="products.html">Products</a>
+                        </li>     -->
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li> -->
+                        <li class="nav-item dropdown"> 
+                            <a class="nav-link dropdown-toggle" href="myproducts.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <a style="margin-left: 10px;"class="nav-link" href="myproducts.html"> Rectangular ductwork and Fittings </a>
+                               <div class="dropdown-divider"></div>
+                               <a style="margin-left: 10px;" class="nav-link " href="myproducts.html"> Spiral Pipe and Fittings </a>
+                               <div class="dropdown-divider"></div>
+                               <a style="margin-left: 10px;" class="nav-link" href="myproducts.html"> Joint Hardware </a>
+                               <div class="dropdown-divider"></div>
+                               <a style="margin-left: 10px;" class="nav-link " href="myproducts.html"> Accessories </a>
+                            </div>
+                         </li>
+                         <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                               <a style="margin-left: 10px;" class="nav-link" href="services.html"> Coordinations Drawings </a>
+                               <div class="dropdown-divider"></div>
+                               <a style="margin-left: 10px;" class="nav-link " href="services.html"> Fabrication and
+                                installation Drawings </a>
+                                <div class="dropdown-divider"></div>
+                               <a style="margin-left: 10px;" class="nav-link" href="services.html"> Estimates </a>
+                              
+                            </div>
+                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                   
+                        
+                            <!-- <div style="align-items: center;">
+                                <label class="theme-switch" for="checkbox" >
+                                    <input type="checkbox" id="checkbox">
+                                    <div class="mode-container">
+                                        <i class="gg-sun"></i>
+                                        <i class="gg-moon"></i>
+                                    </div>
+                                </label>
+                            </div>
+                         -->
+                    
+                </div>
+                
+            </nav>
+        </div>
+    </header>
+    <!--//header-->
+    <!-- inner banner -->
+    <section class="inner-banner">
+        <div class="w3l-breadcrumb">
+            <div class="container">
+                <h4 class="inner-text-title font-weight-bold mb-2">Products</h4>
+                <ul class="breadcrumbs-custom-path">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>Products</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        <!-- //inner banner -->
+        <!-- content -->
+        <!-- <div class="bigm">
+            <div class="smalllistm">
+                
+                
+            
+        </section> -->
+
+                <!-- <div  class="smalllistheadingm">  -->
+                                
+                       <!-- <h2 style=" text-shadow: 2px 2px 5px #470404; 
+                       font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">All products</h2><br> -->
+                       <!-- <h5 style="text-align:center;" class="rainbow-text">ALL PRODUCTS</h5> -->
+                
+                <!-- <div class="smalllistallm">
+                    <ul style="color: tomato; background: white; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">
+                       <a href="#"><li>Standard Products</li></a> <br>
+                       <a href="#"><li>Roofttop Products</li></a><br>
+                       <a href="#"><li>Specialty fabrications</li> </a><br>
+                       <a href="#"><li>SPIRAmir</li></a><br>
+                       <a href="#"><li>Fabric Duct</li></a><br>
+                       <a href="#"><li>Duct Cable Hanging Systems</li></a><br>
+                    </ul>
+                </div> -->
+                <!-- <div style="padding-top: 80px;" class="photosm"> -->
+                    <!-- <div class="responsivem">
+                        <div class="gallerym">
+                          <a target="_blank" href="img_5terre.jpg">
+                            <img src="./assets/images/Rect.jpg" alt="rect" width="600" height="400">
+                          </a>
+                          <div class="desc">Add a description of the image here</div>
+                        </div>
+                      </div> -->
+                      
+                      
+                      <!-- <div class="responsivem">
+                        <div class="gallerym">
+                          <a target="_blank" href="img_forest.jpg">
+                            <img src="./assets/images/Rect.jpg" alt="rect" width="600" height="400">
+                          </a>
+                          <div class="desc">Add a description of the image here</div>
+                        </div>
+                      </div> -->
+                      
+                      <!-- <div class="responsivem">
+                        <div class="gallerym">
+                          <a target="_blank" href="img_lights.jpg">
+                            <img src="./assets/images/Rect.jpg" alt="rect" width="600" height="400">
+                          </a>
+                          <div class="desc">Add a description of the image here</div>
+                        </div> -->
+                      <!-- </div> -->
+                      
+                      <!-- <div class="responsivem">
+                        <div class="gallerym">
+                          <a target="_blank" href="img_mountains.jpg">
+                            <img src="./assets/images/Rect.jpg" alt="rect" width="600" height="400">
+                          </a>
+                          <div class="desc">Add a description of the image here</div>
+                        </div> -->
+                      <!-- </div> -->
+
+                      <section class="w3l-bottom-grids-6 py-5" id="services">
+                        <div class="container py-md-5 py-4">
+                            <div class="title-main text-center mx-auto mb-5" style="max-width:600px;">
+                                <!-- <p class="mt-2">Our Services</p> -->
+                                <!-- <h3 class="title-style">High Performance Services For Multiple <span>Industries</span></h3> -->
+                            </div>
+                            <div class="row pt-md-4">
+                                <div class="col-lg-4 col-md-6 grids-feature">
+                                    <div class="area-box">
+                                        <img class="img-fluid" src="assets/images/elbow.png" alt=" ">
+                                        <h4><a href="#feature" class="title-head">RECTANGULAR DUCTWORK</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed et dolor amet.</p> -->
+                                            <ul>
+                                                <li>Straight Duct</li>
+                                                <li>Custom Rectangular Fittings</li>
+                                            </ul>
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-md-0 mt-sm-5 mt-4">
+                                    <!-- <div class="area-box active"> -->
+                                        <div class="area-box">
+                                        <img class="img-fluid" src="assets/images/spiral.png" alt=" ">
+                                        <h4><a href="#feature" class="title-head">SPIRAL FITTINGS</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed dolor et amet.</p> -->
+                                            <ul>
+                                                <li>Spiral Pipes</li>
+                                                <li>Aluminum Flexible Pipe</li>
+                                            </ul>
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-sm-5 mt-4">
+                                    <div class="area-box">
+                                        <img class="img-fluid" src="assets/images/round.png" alt=" ">
+                                        <h4><a href="#feature" class="title-head">ROUND FITTINGS</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed dolor et amet.</p> -->
+                                            <ul>
+                                                <li>Custom Round Fittings</li>
+                                                <li>Elbows</li>
+                                                <li>Spin Ons</li>
+                                                <li>Round Reducers</li>
+                                                <li>Coupling and End Caps</li>
+                                            </ul>
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                                    <div class="area-box">
+                                        <img class="img-fluid" src="assets/images/img4.jpg" alt=" ">
+                                        <h4><a href="#feature" class="title-head">CUSTOM WELDING</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed et dolor amet.</p> -->
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                                    <div class="area-box ">
+                                        <img class="img-fluid" src="assets/images/cleats.png" alt=" ">
+                                        <h4><a href="#feature" class="title-head">CLEATS AND HANGERS</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed dolor et amet.</p> -->
+                                            <ul>
+                                                <li>Cleats</li>
+                                                <li>Flange and U-Channel</li>
+                                                <li>Angle, Strap and Hangers</li>
+                                            </ul>
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                                    <div class="area-box">
+                                        <img class="img-fluid" src="assets/images/vane.png" alt=" ">
+                                        <h4><a href="#feature" class="title-head">VANES AND TRACKS</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed dolor et amet.</p> -->
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                                    <div class="area-box">
+                                        <img class="img-fluid" src="assets/images/adhesive.png" alt=" ">
+                                        <h4><a href="#feature" class="title-head">SEALANT, ADHESIVE FILM AND GASKETS</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed dolor et amet.</p> -->
+                                            <ul>
+                                                <li>Duct Sealant</li>
+                                                <li>Elgen's Wrap</li>
+                                                <li>Gaskets</li>
+                                            </ul>
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                                    <div class="area-box">
+                                        <img class="img-fluid" src="assets/images/doors.png" alt=" ">
+                                        <h4><a href="#feature" class="title-head">ACCESS DOORS</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed dolor et amet.</p> -->
+                                            <ul>
+                                                <li>Oval Access Doors</li>
+                                                <li>Black Iron Access Doors</li>
+                                            </ul>
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                                    <div class="area-box">
+                                        <img class="img-fluid" src="assets/images/dampers.png" alt=" ">
+                                        <h4><a href="#feature" class="title-head">DAMPERS</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed dolor et amet.</p> -->
+                                            <ul>
+                                                <li>round dampers</li>
+                                            </ul>
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 grids-feature mt-sm-5 mt-4">
+                                    <div class="area-box">
+                                        <img  class="img-fluid" src="assets/images/tools.jpg" alt=" ">
+                                        <h4><a href="#feature" class="title-head">MISCELLANEOUS TOOLS</a></h4>
+                                        <!-- <p>Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non. Duis
+                                            sed dolor et amet.</p> -->
+                                            <ul>
+                                                <li>TDF Install Tool</li>
+                                            </ul>
+                                            <button class="buttonbox" style="vertical-align:middle" ><span>Explore </span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                      
+                      <div class="clearfixm"></div>
+                      </div>
+                              </div>
+                </div>
+
+            </div>
+            <!-- <div class="photosm">
+            <div class="responsivem">
+                <div class="gallerym">
+                  <a target="_blank" href="img_5terre.jpg">
+                    <img src="./assets/images/Rect.jpg" alt="rect" width="600" height="400">
+                  </a>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+              </div>
+              
+              
+              <div class="responsivem">
+                <div class="gallerym">
+                  <a target="_blank" href="img_forest.jpg">
+                    <img src="./assets/images/Rect.jpg" alt="rect" width="600" height="400">
+                  </a>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+              </div>
+              
+              <div class="responsivem">
+                <div class="gallerym">
+                  <a target="_blank" href="img_lights.jpg">
+                    <img src="./assets/images/Rect.jpg" alt="rect" width="600" height="400">
+                  </a>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+              </div>
+              
+              <div class="responsivem">
+                <div class="gallerym">
+                  <a target="_blank" href="img_mountains.jpg">
+                    <img src="./assets/images/Rect.jpg" alt="rect" width="600" height="400">
+                  </a>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+              </div>
+              
+              <div class="clearfixm"></div>
+              </div>
+                      </div> -->
+        <!-- //content -->
+<!-- footer -->
+<footer class="w3l-footer-29-main">
+    <div class="footer-29-w3l py-5">
+        <div class="container py-4">
+            <div class="row footer-top-29">
+                <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5">
+                    <div class="footer-logo mb-3">
+                        <a class="footer-brand-logo" href="index.html">
+                            <img src="assets/images/logo.png" alt="Your logo" title="Your logo" style="height:35px;" />
+                        </i>Denis Sheet Metal</a>
+                    </div>
+                    <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
+                        Semper at
+                        tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+                    <div class="main-social-footer-29 mt-4">
+                        <a href="#facebook" class="facebook"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#twitter" class="twitter"><span class="fab fa-twitter"></span></a>
+                        <a href="#instagram" class="instagram"><span class="fab fa-instagram"></span></a>
+                        <a href="#linkedin" class="linkedin"><span class="fab fa-linkedin-in"></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-2 mt-sm-0 mt-5">
+                    <ul>
+                        <h6 class="footer-title-29">Useful Links</h6>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-5 col-6 footer-list-29 footer-3 mt-lg-0 mt-5 pl-lg-4">
+                    <h6 class="footer-title-29">More Links</h6>
+                    <ul>
+                        <li><a href="capabilities.html">Capabilities</a></li>
+                        <li><a href="products.html">Products</a></li>   
+                        <li class="mb-0"><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-4 mt-lg-0 mt-5 pl-lg-5">
+                    <h6 class="footer-title-29">Address</h6>
+                    <p>
+                        96 Commerce Street<br>
+                        Vars, Ontario<br>
+                        K0A 3H0
+                    </p>
+                    <h6 class="footer-title-29 pt-2 mt-4 mb-3">Give us a free call: </h6>
+                    <a href="tel:+1(613)443-9449">+1(613)443-9449</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- copyright -->
+    <div class="w3l-copyright">
+        <div class="container">
+            <div class="row bottom-copies align-items-center">
+                <p class="col-lg-8 copy-footer-29">Denis Sheet Metal. All rights reserved</p>
+                <div class="col-lg-4 footer-list-29 footer-copy-list">
+                    <ul class="text-lg-right">
+                        <li><a href="contact.html">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- //copyright -->
+<!-- //footer -->
+
+<!-- Js scripts -->
+<!-- move top -->
+<button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fas fa-level-up-alt" aria-hidden="true"></span>
+</button>
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+        } else {
+            document.getElementById("movetop").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<!-- //move top -->
+
+<!-- common jquery plugin -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- //common jquery plugin -->
+
+<!-- counter for stats -->
+<script src="assets/js/counter.js"></script>
+<!-- //counter for stats -->
+
+<!-- magnific popup -->
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.popup-with-zoom-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-zoom-in'
+        });
+
+        $('.popup-with-move-anim').magnificPopup({
+            type: 'inline',
+
+            fixedContentPos: false,
+            fixedBgPos: true,
+
+            overflowY: 'auto',
+
+            closeBtnInside: true,
+            preloader: false,
+
+            midClick: true,
+            removalDelay: 300,
+            mainClass: 'my-mfp-slide-bottom'
+        });
+    });
+</script>
+<!-- //magnific popup -->
+
+<!-- owl carousel -->
+<script src="assets/js/owl.carousel.js"></script>
+<!-- script for tesimonials carousel slider -->
+<script>
+    $(document).ready(function () {
+        $("#owl-demo2").owlCarousel({
+            loop: true,
+            nav: false,
+            margin: 50,
+            responsiveClass: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                736: {
+                    items: 1,
+                    nav: false
+                },
+                991: {
+                    items: 2,
+                    margin: 30,
+                    nav: false
+                },
+                1080: {
+                    items: 2,
+                    nav: false
+                }
+            }
+        })
+    })
+</script>
+<!-- //script for tesimonials carousel slider -->
+<!-- owl carousel -->
+
+<!-- theme switch js (light and dark)-->
+<script src="assets/js/theme-change.js"></script>
+<script>
+    function autoType(elementClass, typingSpeed) {
+        var thhis = $(elementClass);
+        thhis.css({
+            "position": "relative",
+            "display": "inline-block"
+        });
+        thhis.prepend('<div class="cursor" style="right: initial; left:0;"></div>');
+        thhis = thhis.find(".text-js");
+        var text = thhis.text().trim().split('');
+        var amntOfChars = text.length;
+        var newString = "";
+        thhis.text("|");
+        setTimeout(function () {
+            thhis.css("opacity", 1);
+            thhis.prev().removeAttr("style");
+            thhis.text("");
+            for (var i = 0; i < amntOfChars; i++) {
+                (function (i, char) {
+                    setTimeout(function () {
+                        newString += char;
+                        thhis.text(newString);
+                    }, i * typingSpeed);
+                })(i + 1, text[i]);
+            }
+        }, 1500);
+    }
+
+    $(document).ready(function () {
+        // Now to start autoTyping just call the autoType function with the 
+        // class of outer div
+        // The second paramter is the speed between each letter is typed.   
+        autoType(".type-js", 200);
+    });
+</script>
+<!-- //theme switch js (light and dark)-->
+
+<!-- MENU-JS -->
+<script>
+    $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function () {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+        });
+    });
+</script>
+<!-- //MENU-JS -->
+
+<!-- disable body scroll which navbar is in active -->
+<script>
+    $(function () {
+        $('.navbar-toggler').click(function () {
+            $('body').toggleClass('noscroll');
+        })
+    });
+</script>
+<!-- //disable body scroll which navbar is in active -->
+
+<!--bootstrap-->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- //bootstrap-->
+<!-- //Js scripts -->
+</body>
+
+</html>
